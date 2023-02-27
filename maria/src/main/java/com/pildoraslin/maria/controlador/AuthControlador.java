@@ -41,6 +41,8 @@ public class AuthControlador {
     @Autowired
     JwtTokenProvider jwtTokenProvider;
 
+    //comentario para checar git
+
     @PostMapping("/iniciarSesion")
     public ResponseEntity<JwtAuthRespuestaDto> iniciarSesion(@RequestBody LoginDto loginDto){
 

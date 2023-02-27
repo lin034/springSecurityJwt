@@ -18,6 +18,7 @@ import java.util.stream.Collectors;
 @Service
 public class SugerenciaServiceImpl implements SugerenciaService{
 
+    //comentario para checar git
     @Autowired
     ModelMapper modelMapper;
 

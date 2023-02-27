@@ -15,4 +15,6 @@ public class JwtAuthRespuestaDto {
         this.tokenAcceso = tokenAcceso;
 
     }
+
+    //comentario para checar git
 }

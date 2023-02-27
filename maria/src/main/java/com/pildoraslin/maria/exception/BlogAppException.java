@@ -13,6 +13,7 @@ public class BlogAppException extends RuntimeException {
         this.mensaje = mensaje;
     }
 
+    //comentario para checar git
     public HttpStatus getEstado() {
         return estado;
     }
